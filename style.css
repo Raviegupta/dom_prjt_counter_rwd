@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 50em;
+    margin: 0 auto;
+}
+.flex{
+    display: flex; 
+    justify-content: space-evenly;   
+    align-items: center;  
+}
+
+#counter{
+    margin-top: 3em;
+    font-size: 3em; 
+    /* border: 5px solid blue; */
+    color: blue;
+}
+#btn{
+    /* border: 3px solid tomato;  */
+    flex-wrap: wrap;     
+}
+#btn button{
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 2em;
+}
